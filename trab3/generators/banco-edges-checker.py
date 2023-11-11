@@ -64,7 +64,8 @@ def main():
         tempos = tempos + [input().split()]
         tempos[i][0] = int(tempos[i][0])
         tempos[i][1] = int(tempos[i][1])
-    
+
+
     print()
     print('caminho: ', end='')        
     a = banco(C,N,tempos)
