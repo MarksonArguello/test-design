@@ -28,24 +28,3 @@ def banco(C,N,tempos):
                     cont = cont +1
 
         return cont           
-    
-
-def main():
-    C, N = input().split()
-    C = int(C)
-    N = int(N)
-
-    tempos = []
-    for i in range(N):
-        tempos = tempos + [input().split()]
-        tempos[i][0] = int(tempos[i][0])
-        tempos[i][1] = int(tempos[i][1])
-    
-    print()
-    print('caminho: ', end='')        
-    a = banco(C,N,tempos)
-    print()
-    print('resultado: ', a)
-
-
-#main()
